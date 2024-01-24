@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="altamirano construye">
+    <meta property="og:image" content="img/logo-ac.jpg">
+    <meta name="description" content="Mira todos los servicios de la construcción que te ofrecemos y en los cuales tenemos personal especializado para cada uno de ellos.">
+    <title>✔ Servicios de Construcción - Altamirano Construye</title>
+    <link rel="shortcut icon" href="ico/iconoac.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stuley.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<script type="text/javascript" src="js/app.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/menu.js"></script>
+</head>
+<body>
+    <div class="centrador-calendario">
+        
+        <div id="fecha">
+            <p id="diaSemana" class="p-calendario"></p>
+            <p id="dia" class="p-calendario"></p>
+            <p class="p-calendario">De</p>
+            <p id="mes" class="p-calendario"></p>
+            <p class="p-coma">,</p>
+        </div>
+        <div id="reloj">
+            <p id="horas" class="p-calendario"></p>
+            <p class="p-calendario">:</p>
+            <p id="minutos" class="p-calendario"></p>
+        </div>
+    </div>
+    <header>
+        <main>
+            <h1 class="titulo"><a href="index.html">Altamirano Construye</a></h1>
+            <img id="menu" onclick="abrirmenu();" src="svg/menu.svg">
+            <img id="cerrar" onclick="cerrarmenu();" src="svg/cancelar.svg">
+        </main>
+        <nav id="navegacion">
+            <ul class="listanavegacion">
+                <li><a class="lii" href="index.html">INICIO</a></li>
+                <li><a class="lie" href="empresa.html">EMPRESA</a></li>
+                <li><a class="lis" href="servicios.html">SERVICIOS</a></li>
+                <li><a class="lic" href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenedor-lista">
+        <h2 class="tpagina">SERVICIOS</h2>
+      <div class="agruparservicio">
+          
+            <div class="gruposervicios" id="steel">
+                <div class="colorservicio">  
+                  <H3>Steel Framing</H3><a href="servicios-construccion/steel-framing.html">Ver Servicios</a>
+                </div>
+            </div>
+
+            <div class="gruposervicios" id="wood">
+                <div class="colorservicio">  
+                  <H3>Wood Framing</H3><a href="servicios-construccion/wood-framing.html">Ver Servicios</a>
+                </div>
+            </div>
+     </div>
+
+     <div class="agruparservicio">
+         <div class="gruposervicios" id="pintura">
+            <div class="colorservicio"> 
+             <H3>Pintura y Revestimientos</H3><a href="servicios-construccion/pintura-y-revestimientos.html">Ver Servicios</a>
+            </div>
+        </div>
+
+         <div class="gruposervicios" id="ceramica">
+            <div class="colorservicio"> 
+             <H3>Cerámicos y Porcelanatos</H3><a href="servicios-construccion/colocacion-ceramicos-y-porcelanatos.html">Ver Servicios</a>
+             </div>
+            </div>
+    </div>
+       
+    <div class="agruparservicio">
+        <div class="gruposervicios" id="electro">
+            <div class="colorservicio"> 
+            <H3>Instalación de Electrodomesticos</H3><a href="servicios-construccion/instalacion-de-electrodomesticos.html">Ver Servicios</a>
+            </div>
+        </div>
+
+        <div class="gruposervicios" id="electricidad">
+            <div class="colorservicio"> 
+            <H3>Instalación Eléctrica</H3><a href="servicios-construccion/instalacion-electrica.html">Ver Servicios</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="agruparservicio">
+      <div class="gruposervicios" id="albañileria">
+        <div class="colorservicio"> 
+          <H3>Albañileria</H3><a href="servicios-construccion/servicios-de-albanileria.html">Ver Servicios</a>
+          </div>
+        </div>
+      <div class="gruposervicios" id="techos">
+          <div class="colorservicio"> 
+          <H3>Techos</H3><a href="servicios-construccion/servicios-de-techos.html">Ver Servicios</a>
+        </div>  
+        </div>
+    </div> 
+
+    <div class="agruparservicio">
+       <div class="gruposervicios" id="piletas">
+        <div class="colorservicio"> 
+           <H3>Piletas</H3><a href="servicios-construccion/construccion-de-piletas.html">Ver Servicios</a>
+           </div>
+        </div>
+       <div class="gruposervicios" id="paisaje">
+        <div class="colorservicio"> 
+           <H3>Jardineria y Paisajismo</H3><a href="servicios-construccion/servicios-de-jardineria-paisajismo.html">Ver Servicios</a>
+           </div>
+        </div>
+    </div>
+          
+    </section>
+    <footer>
+        <p>
+            UBICACION: Argentina - Bs.As. - General Rodriguez.
+        </p>
+        <P>
+            Altamirano Construye Todos Los Derechos Reservados.
+        </P>
+    </footer>
+    <div class="flotante">
+        <a class="bflotante1 bflotante" href="https://www.facebook.com/messages/t/109629971400061"><img src="img/mensseger.png"></a>
+        <a class="bflotante2 bflotante" href="https://wa.me/5491124659268?text=Hola te hablo por tu sitio web altamiranoconstruye"><img src="svg/whatsappblanco.svg"></a>
+     </div>
+    <script src="js/reloj.js"></script>
+</body>
+</html>
